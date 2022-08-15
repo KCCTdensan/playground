@@ -6,7 +6,18 @@
 // <link>は使わない．
 import "./app.css"
 
+const Header = () => {
+  return(
+    <dev>
+      <h1>○○なう</h1>
+    </dev>
+  )
+}
+
+// 関数
+
 // 関数形式のコンポーネント
+
 function Component1() {
   return (
     <div>this is Component1</div>
@@ -36,6 +47,7 @@ const Component4 = () => (
 // main.jsxでアプリ本体として使われる
 const App = () => (
   <>
+    <Header />
     <Component1 />
     <Component2 />
     <Component3 />
