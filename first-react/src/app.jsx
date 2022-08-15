@@ -2,7 +2,9 @@ import "./app.css"
 
 const Header = () => {
   return(
-    <h1>Header</h1>
+    <dev>
+      <h1>○○なう</h1>
+    </dev>
   )
 }
 
