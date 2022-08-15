@@ -1,3 +1,5 @@
+// viteというツールの設定ファイル
+
 import { defineConfig } from "vite"
 import react from "@vitejs/plugin-react"
 
