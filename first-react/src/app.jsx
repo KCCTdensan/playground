@@ -1,5 +1,11 @@
 import "./app.css"
 
+const Header = () => {
+  return(
+    <h1>Header</h1>
+  )
+}
+
 // 関数
 function Component1() {
   return (
@@ -28,6 +34,7 @@ const Component4 = () => (
 
 const App = () => (
   <>
+    <Header />
     <Component1 />
     <Component2 />
     <Component3 />
