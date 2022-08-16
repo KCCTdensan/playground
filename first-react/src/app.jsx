@@ -4,6 +4,7 @@
 
 // Reactではcssはこんな風にやる．
 // <link>は使わない．
+import Counter from "./count"
 import "./app.css"
 
 const Header = () => {
@@ -48,6 +49,7 @@ const Component4 = () => (
 const App = () => (
   <>
     <Header />
+    <Counter/>
     <Component1 />
     <Component2 />
     <Component3 />
