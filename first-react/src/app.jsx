@@ -8,9 +8,9 @@ import "./app.css"
 
 const Header = () => {
   return(
-    <dev>
+    <div>
       <h1>○○なう</h1>
-    </dev>
+    </div>
   )
 }
 
